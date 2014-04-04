@@ -1,5 +1,8 @@
 class HomeController < ApplicationController
   def index
+
+    ROQTI
+
     @ted = Portfolio.new("Ted")
     @james = Portfolio.new("James")
 
