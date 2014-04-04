@@ -1,7 +1,7 @@
 #Require all files in lib/ directory
 $LOAD_PATH.unshift(File.expand_path(File.dirname(__FILE__) + '/lib'))
 
-require "ROQTI"
+require "roqti"
 
 ted = Portfolio.new("Ted")
 james = Portfolio.new("James")

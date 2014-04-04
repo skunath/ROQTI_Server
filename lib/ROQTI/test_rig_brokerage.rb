@@ -1,6 +1,6 @@
 $LOAD_PATH.unshift(File.expand_path(File.dirname(__FILE__) + '/lib'))
 
-require "ROQTI"
+require "roqti"
 
 # 1 - create a portfolio
 ted = Portfolio.new("Ted")
